@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #1f1f1f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form {
+  margin: 50px;
+}
+
+.center {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#login_form {
+  background-color: cadetblue;
+  border: 1px solid aliceblue;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  column-gap: 20px;
+  align-items: center;
+}
+
+#resister_form {
+  background-color: burlywood;
+  border: 1px solid aliceblue;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  column-gap: 20px;
+  align-items: center;
+}
+
+form input {
+  width: 100%;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 12px;
+  height: 30px;
+  padding-left: 8px;
+  border: none;
+  color: black;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+#login_form input[type="submit"] {
+  background-color: lightblue;
+}
+
+#resister_form input[type="submit"] {
+  background-color: rgb(255, 174, 68);
+}
+
+#login_form input[type="submit"]:hover {
+  background-color: cornflowerblue;
+  color: aliceblue;
+}
+
+#resister_form input[type="submit"]:hover {
+  background-color: rgb(255, 145, 0);
+  color: aliceblue;
+}
